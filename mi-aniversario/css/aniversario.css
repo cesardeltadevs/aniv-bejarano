@@ -2,8 +2,34 @@ a {
     text-decoration: none;
 }
 
+form {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .btn-invitacion {
     background-color: #7F4748;
     color: white;
 }
 
+.confirmacion {
+    background-color: #D68100;
+}
+
+.confirmacion__titulo {
+    background-color: white;
+    color: #7E4442;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.confirmacion p {
+    color: white;
+    font-size: 1.2em;
+}
+
+.form-control {
+    background-color: #EF9928;
+    border: 1px solid #804130;
+}

@@ -53,8 +53,32 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <!-- <img src="img/aniversario-3.jpg" class="w-100" alt=""> -->
+                <div class="col-md-12 confirmacion">                    
+                    <p>&nbsp;</p>
+                    <div class="w-100 confirmacion__titulo text-center">
+                        Para celebrar mi segundo aniversario sacerdotal
+                    </div>
+                    <p>&nbsp;</p>
+                    <p class="text-center">Te invito a la celbración Eucarística el 27 de mayo a las 12:45 pm en la Parroquia de Nuestra Señora de Guadalupe</p>
+                    <p class="text-center">
+                        <a href="https://goo.gl/maps/VoQoxw7xe1kfVsQS9" target="_blank" class="btn btn-invitacion">
+                            &iquest;Cómo llegar?
+                        </a>
+                    </p>
+                    <p>&nbsp;</p>
+                    <form action="confirmacion.php" enctype="application/x-www-form-urlencoded" method="post">
+                        <p class="text-center">Si podrás acompañarme, en el recuadro de abajo anota tu nombre para generar tu boleto.</p>
+                        <input type="text" name="nombre" class="form-control" maxlength="100" required>                        
+                        <p class="text-center">
+                            En la parte de abajo te dejo una cajita para que, si gustas, escribas un mensaje:
+                        </p>
+                        <textarea name="mensaje" id="" cols="30" rows="5" maxlength="250" class="form-control"></textarea>
+                        <p>&nbsp;</p>
+                        <p class="text-center">
+                            <input type="submit" value="Confirmar y Enviar" class="btn btn-invitacion">
+                        </p>
+                    </form>
+                    <p>&nbsp;</p>
                 </div>
             </div>
             <div class="row">
