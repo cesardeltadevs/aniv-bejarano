@@ -7,7 +7,7 @@ $(document).ready(function () {
         $('#invitacion').show();
 
         //Inicia la cancion
-        let cancion = new Audio('media/AUD-20230506-WA0004.ogg');
+        let cancion = new Audio('media/AUD-20230506-WA0004.mp3');
         cancion.play();
     });
 });
